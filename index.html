@@ -3,25 +3,125 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Vicente Mora</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-sm-4">
-			<div class="row profilefPic">
-				<img src="">
-			</div>
-			<div class="row fullName">
-				<h5> Vicente </h5> <br> <h5> Mora </h5>
-			</div>
-			<div class="row jobTitle">
-				<p> Web Developer </p>
-			</div>
-		</div>
-		<div class="col-sm-8">
-		</div>
-	</div>
-</div>
-	
-</body>
-</html>
+			<div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <nav id="spy">
+
+                <ul class="sidebar-nav nav">
+                	<li>
+                		<img class="bioPic" src="img/bioPic.JPG">
+                	</li>
+                    <!-- <li class="sidebar-brand">
+
+                        <a class="fa fa-home fa-lg" href="#home"><span> Home </span></a>
+                    </li> -->
+                    <li>
+                        <a class="fa fa-university fa-lg" href="#education" data-scroll>
+                            <span>  Education </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="fa fa-wrench fa-lg" href="#experience" data-scroll>
+                            <span>  Experience </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="fa fa-desktop fa-lg" href="#skills" data-scroll>
+                            <span>  Skills </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="fa fa-phone-square fa-lg" href="#contact" data-scroll>
+                            <span>  Contact </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Page content -->
+        <div id="page-content-wrapper">
+            <div class="content-header">
+                <h1 id="home">
+                    <a id="menu-toggle" href="#" class="glyphicon glyphicon-align-justify btn-menu toggle">
+                        <!-- <i class="fa fa-bars"></i> -->
+                    </a>
+                    Curriculum Vitae
+                </h1>
+            </div>
+
+            <div class="page-content inset" data-spy="scroll" data-target="#spy">
+                <div class="row">
+  
+                        <div class="jumbotron text-center" >
+                            <h1>All About Me!</h1>
+                            <p>This is an introduction to me!</p>
+                            <!-- <p><a class="btn btn-default">Click On Me!</a>
+                            <a class="btn btn-info">Tweet Me!</a></p> -->
+                        </div>
+    
+                </div>
+                <div class="row">
+                    <div class="col-md-12 well">
+                        <legend id="education">Education</legend>
+                        <ul>
+                        	<li>
+								Ironhack
+							</li>
+                        	<li> 
+								TU
+                        	</li>
+                        	<li> 
+								FIU				
+                        	</li>
+                        	
+
+                        </ul>
+                        
+                    </div>
+                    <div class="col-md-12 well">
+                        <legend id="experience">Experience</legend>
+	                        <ul>
+		                        <li>
+		                        	Loews
+		                        </li>
+		                        <li>
+		                        	Lotus
+		                        </li>
+		                        <li>
+		                        	USMC
+		                        </li>
+	                        </ul>
+                    </div>
+                    <div class="col-md-12 well">
+                        <legend id="skills">Skills</legend>
+                        
+                    </div>
+                    <div class="col-md-12 well">
+                        <legend id="contact">Contact</legend>
+                        
+                    </div>
+                </div>
+
+                <div class="navbar navbar-default navbar-static-bottom">
+                    <p class="navbar-text ">
+                        Made in the 305
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    		<script   src="https://code.jquery.com/jquery-2.2.3.min.js" ></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+			<script src="site.js"></script>
+			</body>
+			</html>
