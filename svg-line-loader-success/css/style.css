@@ -1,0 +1,40 @@
+body{
+  background-color:black;
+  overflow:hidden;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+html{
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.container{
+  width:900px;
+  height:600px;
+}
+svg{
+  width:900px;
+  height:600px;
+}
+
+.refreshCircle{
+  cursor:pointer;
+}
+.downloading, .refresh{
+  position:absolute;
+  
+  top:420px;
+  text-align:center;
+  width:900px;
+  color:#ededed;
+  font-size:15px;
+}
+
+.refresh{
+  opacity:0;
+  top:410px;
+}
