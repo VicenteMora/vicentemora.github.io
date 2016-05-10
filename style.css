@@ -60,7 +60,9 @@ p {
   color: #999999;
   display: block;
   text-decoration: none;
-  padding-left: 60px;
+  padding-left: 21px;
+  padding-top: 60px;
+  font-size:27px;
 }
 
 .sidebar-nav li a span:before {
