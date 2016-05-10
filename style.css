@@ -1,3 +1,15 @@
+h1 {
+  font-family: 'Nixie one', cursive;
+  font-weight: 400;
+}
+p {
+  font-family: 'Ledger', serif;
+  font-weight: 400;
+}
+.text-white {
+  color: white;
+  font-size: 132px;
+}
 #wrapper {
   padding-left: 250px;
   transition: all 0.4s ease 0s;
@@ -25,6 +37,7 @@
 
 #page-content-wrapper {
   width: 100%;
+  background: url(img/lines.png);
 }
 
 
@@ -180,3 +193,35 @@
 .fa.fa-phone-square span {
   color:#999999;
 }
+.iHlogo {
+  max-height: 75px;
+  max-width: 75px;
+  
+}
+.school {
+  padding-top:10px;
+}
+.workHeight {
+  max-height:350px;
+  width: 700px;
+  padding-top: 10px;
+}
+#education {
+  list-style-image: url(img/ironhack_logonegro.png);
+}
+.skillsIcon {
+  max-width: 80px;
+  max-height:  80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
